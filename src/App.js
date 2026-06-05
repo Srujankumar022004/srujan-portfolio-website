@@ -13,7 +13,7 @@ import Certifications from "./components/Certifications";
 import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ParticlesBackground from "./components/ParticlesBackground";
+//import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
 
@@ -55,7 +55,7 @@ function App() {
 
     <>
 
-      <ParticlesBackground />
+      {/*<ParticlesBackground />*/}
 
       <Navbar />
 
