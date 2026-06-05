@@ -1,0 +1,50 @@
+.about-section {
+
+  padding: 100px 10%;
+
+  background: transparent;
+
+  color: white;
+}
+
+.about-section h2 {
+
+  text-align: center;
+
+  font-size: 42px;
+
+  margin-bottom: 40px;
+
+  color: #10B981;
+}
+
+.about-card {
+
+  max-width: 1000px;
+
+  margin: auto;
+
+  background: rgba(17,24,39,.85);
+
+  border: 1px solid rgba(16,185,129,.3);
+
+  backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+
+  padding: 40px;
+
+  line-height: 2;
+
+  font-size: 18px;
+
+  box-shadow:
+  0 0 20px rgba(16,185,129,.15);
+}
+
+.highlight {
+
+  color: #34D399;
+
+  font-weight: 700;
+}

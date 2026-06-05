@@ -1,0 +1,67 @@
+.github-section {
+
+  padding: 100px 10%;
+
+  color: white;
+}
+
+.github-section h2 {
+
+  text-align: center;
+
+  font-size: 42px;
+
+  color: #10B981;
+
+  margin-bottom: 60px;
+}
+
+.github-grid {
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(400px, 1fr));
+
+  gap: 30px;
+}
+
+.github-card {
+
+  background:
+  rgba(17,24,39,.85);
+
+  border:
+  1px solid rgba(16,185,129,.2);
+
+  border-radius: 20px;
+
+  padding: 20px;
+
+  backdrop-filter:
+  blur(15px);
+
+  transition:
+  all .4s ease;
+}
+
+.github-card:hover {
+
+  transform:
+  translateY(-8px);
+
+  box-shadow:
+  0 0 25px rgba(16,185,129,.25);
+}
+
+.github-card img {
+
+  width: 100%;
+
+  border-radius: 12px;
+}
+
+.full-width {
+
+  grid-column: 1 / -1;
+}

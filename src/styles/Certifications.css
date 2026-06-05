@@ -1,0 +1,183 @@
+.certifications-section {
+
+  padding: 100px 10%;
+
+  color: white;
+}
+
+.certifications-section h2 {
+
+  text-align: center;
+
+  font-size: 42px;
+
+  margin-bottom: 60px;
+
+  color: #10B981;
+}
+
+.certifications-grid {
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(350px, 1fr));
+
+  gap: 30px;
+}
+
+.cert-card {
+
+  background:
+  rgba(17,24,39,.85);
+
+  border:
+  1px solid rgba(16,185,129,.2);
+
+  backdrop-filter:
+  blur(15px);
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  transition:
+  all .4s ease;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.cert-card:hover {
+
+  transform:
+  translateY(-10px);
+
+  box-shadow:
+  0 0 30px rgba(16,185,129,.25);
+}
+
+.cert-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 3px;
+
+  background:
+  linear-gradient(
+    90deg,
+    #10B981,
+    #34D399
+  );
+}
+
+.badge-image {
+
+  width: 100%;
+
+  height: 200px;
+
+  object-fit: contain;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+}
+
+.cert-card h3 {
+
+  color: white;
+
+  font-size: 22px;
+
+  margin-bottom: 15px;
+
+  line-height: 1.5;
+}
+
+.issuer-tag {
+
+  display: inline-block;
+
+  padding: 8px 15px;
+
+  border-radius: 25px;
+
+  background:
+  rgba(16,185,129,.15);
+
+  color:
+  #34D399;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  margin-bottom: 15px;
+}
+
+.cert-card p {
+
+  margin: 10px 0;
+
+  color: #cbd5e1;
+}
+
+.status {
+
+  color: #34D399;
+
+  font-weight: 700;
+
+  margin-top: 15px;
+}
+
+.cert-btn {
+
+  display: inline-block;
+
+  margin-top: 20px;
+
+  padding: 12px 20px;
+
+  border-radius: 12px;
+
+  text-decoration: none;
+
+  color: white;
+
+  background:
+  rgba(16,185,129,.15);
+
+  border:
+  1px solid rgba(16,185,129,.25);
+
+  transition:
+  all .3s ease;
+}
+
+.cert-btn:hover {
+
+  background: #10B981;
+
+  transform:
+  translateY(-3px);
+}
+
+@media(max-width:768px){
+
+  .certifications-grid{
+
+    grid-template-columns:1fr;
+  }
+
+}

@@ -1,0 +1,28 @@
+.contact-card {
+
+  max-width: 700px;
+
+  margin: auto;
+
+  background: rgba(255,255,255,.05);
+
+  backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255,255,255,.1);
+
+  border-radius: 25px;
+
+  padding: 40px;
+
+  text-align: center;
+
+  transition: .4s ease;
+}
+
+.contact-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow:
+    0 10px 30px rgba(6,182,212,.3);
+}
